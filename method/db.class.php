@@ -7,7 +7,7 @@
 		/*一个类construct方法，这里注意的是前面是双下划线，而且construct这个方法是自动执行*/		
 		function __construct(){
 			/*连接数据库语句*/
-			$this->mysqli=new mysqli('localhost','www','Asdddf2!','blog');
+			$this->mysqli=new mysqli('localhost','www','123456','blog');
 			/*如果连接出现错误怎么办*/
 			if ($this->mysqli->connect_error) {
 	    		die('Connect Error (' . $this->mysqli->connect_errno . ') '
