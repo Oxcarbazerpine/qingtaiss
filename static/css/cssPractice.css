@@ -1,0 +1,92 @@
+/*body {
+   /*white-space: nowrap;*/
+/*  font-family: Verdana, sans-serif;
+   font-size: 1.2em;
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    /*background-position:50px 100px;*/
+/*    text-align: left;
+    overflow: auto
+}*/
+
+
+
+
+a:link {text-decoration:none; color:black;}    /* 未被访问的链接 */
+a:visited {text-decoration:none; color:rgb(7, 69, 94);} /* 已被访问的链接 */
+a:hover {text-decoration:underline;}   /* 鼠标指针移动到链接上 */
+a:active {text-decoration:underline;}  /* 正在被点击的链接 */
+
+
+
+header {
+    height: 120px;
+    background-image: url(/images/auroraHeaderSmall.jpg);
+    margin: 0;
+    padding: 0;
+}
+#blogName {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+#sidebar ul {
+    position: fixed;
+    top: 300px;
+    right: 20px;
+    /*float:right;*/
+    
+    border: dashed;
+    padding: 0px;
+    margin: 30;
+    
+}
+#sidebar ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 20px;
+}
+#sidebar a {
+    display: block;
+    width: 60px;    
+    }
+    a.sbar:link，a.sbar:visited
+    {
+        display:block;
+        font-weight:bold;
+        color:#FFFFFF;
+        background-color:#bebebe;
+        width:120px;
+        text-align:center;
+        padding:4px;
+        text-decoration:none;
+        text-transform:uppercase;
+        }
+        a.sbar:hover,a.sbar:active
+        {
+        background-color:#cc0000;
+        text-decoration:none;
+        }
+
+#articles {
+    background-color: gray;
+    width: 500px;
+    height: 600px;
+    margin: 50px;
+    padding: 50px;
+    outline: black solid thin;
+}
+
+#endText {
+    font-style: italic;
+}
+
+footer {
+    text-transform: capitalize;
+}
+
+[title=block-title] {
+    border: 1px solid rgb(114, 114, 212);
+    margin-left: auto;
+}

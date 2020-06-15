@@ -1,0 +1,33 @@
+*{margin:0px;padding:0px;}
+#register-form ul{
+width:400px;
+list-style:none;
+margin:50px auto;
+}
+
+#register-form ul>li{
+/* padding:12px; */
+position:relative;
+}
+
+#register-form label{
+width:80px;
+display:inline-block;
+float: left;
+line-height:30px;
+}
+
+#register-form input[type='text'],input[type='password']{
+height:30px;
+width: auto;
+}
+
+#register-form img{
+margin-left:10px;
+}
+
+#register-form input[type="submit"]{
+margin-left:80px;
+padding:5px 10px;
+
+}

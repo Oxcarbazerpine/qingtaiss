@@ -1,0 +1,37 @@
+.alert {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 300px;
+	max-width: 600px;
+	transform: translate(-50%,-50%);
+	z-index: 999;
+	text-align: center;
+	padding: 15px;
+	border-radius: 3px;
+}
+
+.alert-success {
+    color: #020202;
+    background-color: #ffffff;
+    border-color: #444444b9;
+}
+
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
